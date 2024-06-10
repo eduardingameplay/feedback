@@ -1,10 +1,10 @@
-import { ButtonContainer, cardContainer, IconContainer } from "./Home.styles";
+import { ButtonContainer, CardContainer, IconContainer } from "./Home.styles";
 
 import iconStarImg from "../assets/icon-star.svg"
 
 export function Home() {
   return (
-      <cardContainer>
+      <CardContainer>
         <IconContainer>
           <img src={iconStarImg} alt="icone da estrela" />
         </IconContainer>
@@ -22,6 +22,6 @@ export function Home() {
           <button>Enviar</button>
 
 
-      </cardContainer>
+      </CardContainer>
   )
 }
